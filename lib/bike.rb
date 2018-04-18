@@ -3,5 +3,6 @@ class Bike
     true
   end
 
+puts "test change"
 
 end
