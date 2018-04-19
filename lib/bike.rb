@@ -1,9 +1,9 @@
 class Bike
-  def working?
-    true
+  def report_broken
+    @broken = true
   end
 
-  def dock_bike
-    @bikes.push(self)
+  def broken?
+    @broken
   end
 end
